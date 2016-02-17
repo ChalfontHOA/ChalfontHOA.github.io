@@ -28,6 +28,10 @@ image:
 	</div><!-- /.tile -->
 </div><!-- /.tiles -->
 
-
-
-
+<h3>Latest News</h3>
+<ul>
+{% for post in site.posts limit:3 %}
+  <b><li>{% if post.date %}<span>{{ post.date | date: "%B %d, %Y" }}</span> &raquo; {% endif %}<a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li></b>
+  <p>{{ post.content }}
+{% endfor %}
+</ul>
