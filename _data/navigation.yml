@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+  excerpt: "About the Chalfont Homeowners Association"
+  image: teaser_about.png
+      
+- title: Documents
+  url: /documents/
+  excerpt: "Covenants, Bylaws, Community Wide Standards, etc."
+  image: teaser_documents.png
+      
+- title: Links
+  url: /links/
+  excerpt: "Links to various information"
+  image: teaser_links.png
+      
+- title: News
+  url: /news/
+  excerpt: "News and announcements"
+  image: teaser_news.png

@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: article
 title: Links
 permalink: /links/
+image:
+  teaser: 400x250.gif
 ---
 
 [Brookhaven Police](http://www.brookhavenga.gov "Brookhaven Police")
